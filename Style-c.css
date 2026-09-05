@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url("https://media.istockphoto.com/id/2152660097/photo/tropical-paradise-beach-scene-for-background-or-wallpaper.jpg?b=1&s=612x612&w=0&k=20&c=AlzFdj3H1uTM-UgkcF4SPMwwdsPSdsed9CebW6nwY7s=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+ header{
+    display: flex;
+    border: 2px solid black;
+    background-color:black;
+     align-items: center;
+     justify-content: space-between;
+    
+     text-transform: uppercase;
+     padding: 10px;
+     margin: 10px 20px;
+      border-radius:18px;
+     
+}
+
+h1{
+    font-size:30px;
+    letter-spacing:3px;
+    background:linear-gradient(rgb(211,71,15),rgb(20,179,20));
+    background-clip:text;
+    color:transparent;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 12px 20px;
+    white-space: nowrap;
+}
+header nav ul li a:hover{
+    color:orange;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;   /* Zarurat pade to next line me aa jayega */
+}
+main{
+    padding: 20px;
+    max-width: 1200px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+.info{
+    border: 2px solid black;
+    box-shadow: rgb(93, 37, 37);
+}
+
+#Info{
+    font-size: larger;
+}
+button{
+    background: linear-gradient(to right, #ff9800, #ff5722);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #c79a56;
+    transform: scale(1.05);
+}
+button:active{
+    transform: scale(0.98);
+}
+footer{
+    background-color:#111;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+}
+
+.footer-links{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    list-style:none;
+    margin:20px 0;
+    padding:0;
+    flex-wrap:wrap;
+}
+
+.footer-links a{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.footer-links a:hover{
+    color:orange;
+}
+
+.social-links{
+    margin-top:15px;
+}
+
+.social-links a{
+    color:#00bfff;
+    text-decoration:none;
+    margin:0 8px;
+}
+
+.social-links a:hover{
+    color:orange;
+}
+.footer-links a{
+    text-transform: uppercase;
+}
+.message{
+    /* background-color: #b6afad; */
+    border: 2px solid black;
+    
+}

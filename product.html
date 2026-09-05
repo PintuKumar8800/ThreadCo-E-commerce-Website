@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThreadCo - The Catalogue</title>
+</head>
+<style>
+    table,
+    tr,
+    td,
+    th {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+</style>
+
+<body>
+    <header>
+        <h1>ThreadCo</h1>
+        <p><em>Wear the Code. Live the Street.</em></p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="Product Details.html">Product Details</a></li>
+
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="">Cart(0)</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>The Catalogue</h2>
+            <p>Fresh drops, every Friday. Limited stock. No restocks. Ever.</p>
+            <p>Showing 8 <strong>products</strong></p>
+        </section>
+        <section>
+            <h3>Filter By</h3>
+            <h4>Category</h4>
+            <ul>
+                <li>
+                    <input type="checkbox" id="T-Shirts">
+                    <lebel for="T-Shirts">T-Shirts</lebel>
+                </li>
+                <li>
+                    <input type="checkbox" id="Hoodies">
+                    <lebel for="Hoodies">Hoodies</lebel>
+                </li>
+                <li>
+                    <input type="checkbox" id="Cargo Pants">
+                    <lebel for="Cargo Pants">Cargo Pants</lebel>
+                </li>
+                <li>
+                    <input type="checkbox" id="Caps">
+                    <lebel for="Caps">Caps</lebel>
+                </li>
+                <li>
+                    <input type="checkbox" id="Accessories">
+                    <lebel for="Accessories">Accessories</lebel>
+                </li>
+            </ul>
+            <h3>Price Range (&#8377)</h3>
+            <label for="min">min:</label>
+            <input type="number" name="min" id="min" min="0" placeholder="1" required>
+            <br><br>
+            <label for="max">max:</label>
+            <input type="number" name="min" id="max" max="10" placeholder="10" required>
+            <h4>Sort By</h4>
+            <select name="Sort By" id="Sort By">
+                <option value="">Most Popular</option>
+                <option value="">Price:Low to High</option>
+                <option value="">Price:High to Low</option>
+                <option value="">Newest First </option>
+            </select>
+            <br><br>
+
+            <button>Apply Filter</button>
+            <button>Clear All</button>
+
+        </section>
+        <section>
+            <h2>All Products</h2>
+            <article>
+                <figure>
+                    <img src="pic/Oversized Drop Tee Vol.3 -1.jpg" alt="" width="240" height="300">
+                    <figcaption>Oversized Drop Tee Vol.3</figcaption>
+                    <h3>Product Name:Oversized Drop Tee Vol.3</h3>
+                    <p><strong>Category:</strong> T-Shirts</p>
+                    <p> <strong>Price: &#8377 799</strong> <s>&#8377 1199</s> </p>
+                    <p> <mark>33% OFF</mark></p>
+                    <p><strong>Color:</strong>Black</p>
+                    <p><strong>Size:</strong>S, M, L, XL</p>
+                    <p><strong>Fabric:</strong>100% Premium Cotton</p>
+                    <p><strong>Description:</strong>Soft oversized fit with breathable fabric. Perfect for everyday
+                        casual wear.</p>
+                    <a href="">View Details </a>
+                    <button>Add to Cart</button>
+                </figure>
+            </article>
+            <article>
+                <figure>
+                    <img src="pic/Urban Street Hoodie-2.jpg" alt="" width="240" height="300">
+                    <figcaption>Urban Street Hoodie</figcaption>
+                    <h3>Product Name:Urban Street Hoodie</h3>
+                    <p><strong>Category:</strong> THoodies</p>
+                    <p> <strong>Price: &#8377 1699</strong> <s>&#8377 2499</s> </p>
+                    <p><strong>Color:</strong></p>
+
+                    <p> <mark>32% OFF</mark>Grey</p>
+                    <p><strong>Size:</strong>M, L, XL</p>
+                    <p><strong>Fabric:</strong>Cotton Fleece</p>
+                    <p><strong>Description:</strong>Warm, comfortable hoodie with kangaroo pocket and premium quality
+                        fabric.</p>
+
+                    <a href="">View Details </a>
+                    <button>Add to Cart</button>
+                </figure>
+            </article>
+            <article>
+                <figure>
+                    <img src="pic/Classic Blue Denim Jeans.jpg" alt="" width="240" height="300">
+                    <figcaption>Classic Blue Denim Jeans</figcaption>
+                    <h3> Product Name:Classic Blue Denim Jeans</h3>
+                    <p> <strong>Category:</strong> Jeans</p>
+                    <p> <strong>Price: &#8377 1499</strong> <s>&#8377 2299</s> </p>
+                    <p> <mark>35% OFF</mark></p>
+                    <p><strong>Color:</strong>Blue</p>
+                    <p><strong>Size:</strong>30, 32, 34, 36</p>
+                    <p><strong>Fabric:</strong>Stretch Denim</p>
+                    <p><strong>Description:</strong>Slim fit jeans with stretchable fabric for all-day comfort.</p>
+                    <a href="">View Details </a>
+                    <button>Add to Cart</button>
+                </figure>
+            </article>
+            <article>
+                <figure>
+                    <img src="pic/Casual Checked Shirt-4.jpg" alt="" width="240" height="300">
+                    <figcaption>Casual Checked Shirt</figcaption>
+                    <h3>Product Name: Casual Checked Shirt</h3>
+                    <p>Category: T-Shirts</p>
+                    <p> <strong>Price: &#8377 1099</strong> <s>&#8377 1799</s> </p>
+                    <p> <mark>39% OFF</mark></p>
+                    <p><strong>Color</strong>Red & Black</p>
+                    <p><strong>Size:</strong>M, L, XL</p>
+                    <p><strong>Fabric:</strong>Cotton Blend</p>
+                    <p><strong>Description:</strong>Stylish checked shirt suitable for casual and semi-formal occasions
+                    </p>
+                    <a href="">View Details </a>
+                    <button>Add to Cart</button>
+                </figure>
+            </article>
+            <article>
+                <figure>
+                    <img src="pic/ONE8 Velocity Running Shoes-5.jpg" alt="" width="240" height="300">
+                    <figcaption>ONE8 Velocity Running Shoes</figcaption>
+                    <h3>Product Name: ONE8 Velocity Running Shoes</h3>
+                    <p><strong>Category: </strong>Shoes</p>
+                    <p> <strong>Price: &#8377 3499</strong> <s>&#8377 4999</s> </p>
+                    <p> <mark>30% OFF</mark></p>
+                    <p><strong>Color:</strong>Black</p>
+                    <p><strong>Size:</strong>UK 6–10</p>
+                    <p><strong>Description:</strong>Lightweight running shoes with breathable mesh upper and cushioned
+                        sole.</p>
+                    <a href="">View Details </a>
+                    <button>Add to Cart</button>
+                </figure>
+            </article>
+            <article>
+                <figure>
+                    <img src="pic/Premium Cotton Baseball Cap-6.jpg" alt="" width="240" height="300">
+                    <figcaption>Oversized Drop Tee Vol.3</figcaption>
+                    <h3>Product Name: Premium Cotton Baseball Cap</h3>
+                    <p><strong>Brand:</strong>Urban Style</p>
+                    <p> <strong>Category:</strong>Cap</p>
+                    <p> <strong>Price: &#8377 699</strong> <s>&#8377 999</s> </p>
+                    <p> <mark>30% OFF</mark></p>
+                    <p><strong>Color:</strong>Black</p>
+                    <p><strong>Size:</strong>Free Size</p>
+                    <p><strong>Description:</strong>Adjustable cotton cap with embroidered logo for everyday wear.</p>
+                    <a href="">View Details </a>
+                    <button>Add to Cart</button>
+                </figure>
+            </article>
+            <article>
+                <figure>
+                    <img src="pic/Premium Slim Fit Blazer-7.jpg" alt="" width="240" height="300">
+                    <figcaption>Men's Formal Blazer</figcaption>
+                    <h3>Product Name: Premium Slim Fit Blazer</h3>
+                    <p><strong>Brand:</strong>
+                        <Raymond /p>
+                            <p><strong>Category: </strong>Blazer</p>
+                            <p> <strong>Price: &#8377 4999</strong> <s>&#8377 6999</s> </p>
+                            <p> <mark>29% OFF</mark></p>
+                            <p><strong>Color:</strong>Navy Blue</p>
+                            <p><strong>Size:</strong>M, L, XL</p>
+                            <p><strong>Description:</strong>Elegant slim-fit blazer made from premium fabric for office
+                                and party wear.</p>
+                            <a href="">View Details </a>
+                            <button>Add to Cart</button>
+                </figure>
+            </article>
+            <article>
+                <figure>
+                    <img src="pic/Classic Leather Loafers-8.jpg" alt="" width="240" height="300">
+                    <figcaption>Men's Loafers (Loafer Shoes)</figcaption>
+                    <h3>Product Name: Classic Leather Loafers</h3>
+                    <p><strong>Brand:</strong>Red Tape</p>
+                    <p><strong>Category</strong>Loafers</p>
+                    <p> <strong>Price: &#8377 2599</strong> <s>&#8377 3999</s> </p>
+                    <p> <mark>35% OFF</mark></p>
+                    <p><strong>Color:</strong>Brown</p>
+                    <p><strong>Size:</strong>UK 6–10</p>
+                    <p><strong>Description:</strong>Genuine leather loafers with soft insole and anti-slip rubber sole.
+                    </p>
+                    <a href="">View Details </a>
+                    <button>Add to Cart</button>
+                </figure>
+            </article>
+
+        </section>
+        <section>
+            <h2></h2>
+            <p></p>
+            <table>
+                <tr>
+                    <th colspan="4">Product Comparison - Top 3 Picks</th>
+
+                </tr>
+                <tr>
+                    <th>Feature</th>
+                    <th>Drop Tee Val.3</th>
+                    <th>Street Hoodie</th>
+                    <th>Utility Cargo</th>
+                </tr>
+                <tr>
+                    <th rowspan="2">Pricing</th>
+                    <td>&#8377 799</td>
+                    <td>&#8377 1499</td>
+                    <td>&#8377 1799</td>
+                </tr>
+                <tr>
+                    <td><s>&#8377 1199</s></td>
+                    <td><s>&#8377 1999</s></td>
+                    <td> <s>&#8377 2499</s></td>
+                </tr>
+                <tr>
+                    <th>Material</th>
+                    <td>100% Cotton</td>
+                    <td>80% Cotton, 20% Polyester</td>
+                    <td>100% Cotton Twill</td>
+                </tr>
+                <tr>
+                    <th>Available Sizes </th>
+                    <td>S, M, L, XL, XXL</td>
+                    <td>S, M, L, XL</td>
+                    <td>28, 30, 32, 34, 36</td>
+                </tr>
+                <tr>
+                    <th>Rating</th>
+                    <td>&#9733&#9733&#9733&#9733&#9733 (4.9)</td>
+                    <td>&#9733&#9733&#9733&#9733 &#9734(4.7)</td>
+                    <td>&#9733&#9733&#9733&#9733&#9734(4.6)</td>
+                </tr>
+                <tr>
+                    <th>Free Delivery</th>
+                    <td>Yes (above ₹ 499)</td>
+                    <td>Yes (above ₹ 499)</td>
+                    <td>Yes (above ₹ 499)</td>
+                </tr>
+                <tr>
+                    <th>Best For</th>
+                    <td>Everyday wear</td>
+                    <td>Winter & layering</td>
+                    <td>Street & utility style
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 ThreadCo. All rights reserved.</p>
+        <p><em>Wear the Code. Live the Street.</em></p>
+
+        <ul>
+            <li><a href="#Home"></a>Home</li>
+            <li><a href=""></a>Products</li>
+            <li><a href="
+                "></a>Contect</li>
+            <li><a href=""></a>Privacy Policy</li>
+            <li><a href=""></a>Terms & Conditions</li>
+
+        </ul>
+
+        <div>
+            <a href="">Linkdin</a> | <a href="">GitHub | YouTube</a>
+
+        </div>
+
+
+    </footer>
+
+</body>
+
+</html>
